@@ -71,5 +71,22 @@ textarea{
 }
 
 .container {
+  display: grid;
+  grid-template-columns: auto 80% auto;
+  padding: 10px;
+}
+
+.hourCol{
+  height: 50px;
+  
+}
+
+.eventCol{
+  height: 50px;
+  background-color: lightgray;
+}
+
+.saveCol{
+  height: 50px;
   
 }
