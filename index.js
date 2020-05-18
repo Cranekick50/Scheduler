@@ -2,11 +2,14 @@ var containerEl = document.querySelector(".container")
 var currentDayEl = document.getElementById('currentDay')
 var myText = document.querySelectorAll("eventCol")
 
-var moment = require('moment-timezone');
-moment().tz("America/Los_Angeles").format();
+let date = new Date();
+currentDayEl.innerHTML = moment(date).format('lll')
 
-var myText = document.createElement("INPUT");
-myText.setAttribute("type", "text");
+myText.addEventListener("click", function() {
+
+});
 
 
-
+saveBtn.addEventListener("click", function() {
+    
+});
