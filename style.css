@@ -40,6 +40,7 @@ textarea{
   background-color: #ffffff;
   color: #000000;
   border-top: 1px dashed #000000;
+  height: 75px;
 }
 
 .past {
@@ -63,6 +64,8 @@ textarea{
   border-bottom-right-radius: 15px;
   background-color: #06AED5;
   color: white;
+  height: 75px;
+ 
 }
 
 .saveBtn i:hover {
@@ -76,21 +79,15 @@ textarea{
   padding: 10px;
 }
 
-.hourCol{
-  height: 75px;
-  
+textarea {
+  width: 100%;
+  height: 100%;
 }
 
 .eventCol{
   height: 75px;
   background-color: lightgray;
+  border: 1px dashed black;
 }
 
-.saveCol{
-  height: 75px;
-  display: inline-block;
-  content: "";
-  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><path fill='none' stroke='%23333' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M5 14l6-6-6-6'/></svg>");
-  background-repeat: no-repeat;
-  background-size: 1rem 1rem;
-}
+
